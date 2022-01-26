@@ -1,0 +1,476 @@
+body {
+    margin: 0;
+    font-family: 'Rubik', sans-serif !important;
+    font-size: 1em !important;
+}
+
+a {
+    color: #007bff;
+}
+
+.active {
+    border-bottom: 1px dotted white;
+}
+
+nav a:hover {
+    color: white !important;
+}
+
+.lien:hover {
+    color: #0056b3;
+}
+
+/* MENU */
+
+nav {
+    font-family: 'Playfair Display', serif;
+    background-color: #4d0a58;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    height: 60px;
+}
+
+nav ul li {
+    margin-right: 30px;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+ul a:visited {
+    color: white;
+}
+
+#menu-burger, #menu-burger-cross {
+    display: none;
+}
+
+header {
+    border: 1px solid black;
+}
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTAINER avec ASIDE */
+
+#profil-container {
+    display: none;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    padding-left: 30px;
+}
+
+#profil {
+    position: relative;
+    top: 50vh;
+    background-color: #cfeaff;
+    border-radius: 30px;
+    width: 56px;
+    height: 60px;
+}
+
+aside {
+    width: 25%;
+    height: 93vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    position: sticky;
+    top: 53px;
+    background-color: #cfeaff;
+    box-shadow: 10px 10px 20px 0px rgb(125 170 205);
+}
+
+#me {
+    margin-top: -50px;
+}
+
+.icon {
+    text-decoration: none;
+}
+
+#quote {
+    cursor: pointer;
+    margin: 0 50px;
+}
+
+/* ACCUEIL */
+
+.legend {
+    text-align: center;
+}
+
+/* ARTICLE */
+
+article {
+    width: 75%;
+    padding: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'The Nautigal', cursive;
+    font-size: 4em !important;
+    font-weight: bold !important;
+    color: black;
+    margin: 30px 0;
+}
+
+/* PAGE REALISATIONS.HTML */
+
+#realisations {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+.realisation {
+    width: 400px;
+    margin: 20px;
+    margin-right: 50px;
+}
+
+.image {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.title {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.icons {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    padding-top: 15px;
+}
+
+.i {
+    width: 33px;
+    margin-right: 10px;
+}
+
+.website {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.github {
+    width: 34px;
+}
+
+/* PAGE PARCOURS.HTML */
+
+#container-parcours {
+    display: flex;
+    justify-content: center;
+}
+
+#small-container-parcours {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 55vh;
+}
+
+#rectangle {
+    background-color: #4d0a58;
+    width: 2vw;
+    height: 50vh;
+}
+
+.cercle {
+    background-color: #4d0a58;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 600px;
+}
+
+#cercle1 {
+    top: 339px;
+}
+
+.centrer {
+    margin-top: 5px;
+}
+
+#mission {
+    margin-top: -6px;
+}
+
+.mention {
+    margin-left: 35px;
+    margin-top: 9px;
+}
+
+/* PAGE MISSION_DE_SERVICE.HTML */
+
+table, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-bottom: 50px;
+}
+
+td {
+    padding: 25px 88px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+td:hover {
+    background-color: black;
+    color: white;
+}
+
+.selection {
+    background-color: black;
+    color: white;
+}
+
+#clic, h2 {
+    text-align: center;
+}
+
+h2 + p, h2 + ul {
+    margin-top: 45px;
+}
+
+.localisation {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#marqueur {
+    width: 23px;
+    margin-right: 10px;
+}
+
+#content {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+#exemple {
+    text-decoration: underline;
+}
+
+/* PAGE CONTACT.HTML */
+
+.star {
+    color: red;
+}
+
+label {
+    display: inline-block;
+    margin: 20px 0 10px 0;
+}
+
+input, textarea, button {
+    font-family: inherit;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-field:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
+}
+
+textarea.form-field {
+    min-height: calc(1.5em + .75rem + 2px);
+}
+
+button[type="submit"] {
+    color: #fff;
+    background-color: #017fed;
+    border-color: #017fed;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    margin: 20px 0 0 0;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: #4d0a58;
+    border-color: #4d0a58;
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #4d0a584d;
+    margin-top: 35px;
+}
+
+footer p {
+    margin: 16px 21px;
+}
+
+/* POUR LES PORTABLES */
+
+/* Menu burger */
+@media screen and (max-width: 480px) {
+    nav {
+        min-height: 37px;
+        height: auto;
+    }
+    nav ul {
+        display: none;
+    }
+    nav.open {
+        height: 115px;
+        padding: 35px 0 15px 0;
+    }
+    nav ul.open {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    nav ul li::before, nav ul li::after {
+        box-sizing: unset !important;
+    }
+    nav ul.open li {
+        padding-bottom: 5px;
+    }
+    .menu-icons {
+        width: 35px;
+    }
+    #menu-burger, #menu-burger-cross {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 1px 7px;
+    }
+    .iconActive {
+        display: block !important;
+    }
+    .iconNonActive {
+        display: none !important;
+    }
+}
+
+/* Page d'accueil */
+@media screen and (max-width: 480px) {
+    #container {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: -86vw;
+        z-index: 100;
+        height: 100vh;
+    }
+    aside {
+        height: 100vh;
+        width: 80vw;
+    }
+    #profil-container {
+        width: 20vw;
+        display: block;
+    }
+    #me {
+        width: 80vw;
+    }
+    #container.open {
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    #container.open #profil-container {
+        padding-left: 10px;
+    }
+}
+
+/* Page des réalisations */
+@media screen and (max-width: 480px) {
+    .realisation {
+        width: 300px;
+        margin: 20px 0;
+    }
+    .image {
+        width: 300px;
+        height: 175px;
+    }
+    #rectangle {
+        width: 7vw;
+        height: 45vh;
+        margin-top: 2vh;
+    }
+    .cercle {
+        left: 9vw;
+    }
+}
+
+/* Page de la mission de service */
+@media screen and (max-width: 480px) {
+    td {
+        padding: 20px 10px;
+    }
+}
+
+/* Page de contact */
+@media screen and (max-width: 480px) {
+    article {
+        margin: 0!important;
+    }
+}

@@ -1,0 +1,36 @@
+{% extends "accueil.html.twig" %}
+
+{% block section %}
+
+    <article>
+        <h1>Contactez-moi</h1>
+        <p class="legend">
+            Vous avez été séduit par mon site, mon CV ou mes réalisations ? Vous souhaitez m'embaucher pour une alternance ?<br>
+            N'hésitez plus et envoyez-moi un message !
+        </p>
+        <form action="message.php" method="POST">
+            <label for="prenom">Prénom <span class="star">*</span></label>
+            <input type="text" class="form-field" placeholder="Gérard" id="prenom" name="prenom" required>
+            <label for="nom">Nom <span class="star">*</span></label>
+            <input type="text" class="form-field" placeholder="Dupond" id="nom" name="nom" required>
+            <label for="mail">Adresse e-mail <span class="star">*</span></label>
+            <input type="email" class="form-field" placeholder="monadresse@mail.com" id="mail" name="mail" required>
+            <label for="textarea">Mon message <span class="star">*</span></label>
+            <textarea class="form-field" id="textarea" placeholder="Blablabla" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </article>
+    <script>
+
+        if(window.location.href == "https://aiolah-vaiti.fr/?action=contact&message=envoye")
+        {
+            alert("Votre message a bien été envoyé :) !");
+        }
+        if(window.location.href == "https://aiolah-vaiti.fr/?action=contact&message=erreur")
+        {
+            alert("Votre message n'a pas pu être envoyé, un des champs n'a pas été rempli.");
+        }
+
+    </script>
+
+{% endblock %}
