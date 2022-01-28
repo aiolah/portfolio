@@ -50,7 +50,7 @@ content["mercredi"] = "<h2>☕ MERCREDI ☕</h2>" +
     "</li>" +
     "<li>" +
         "<h3>Colis alimentaires, Croix-Rouge : épicerie sociale (1 semaine sur 2)</h3>" + 
-        "<p>Ce service ressemble à celui du mardi, à quelques détails près. Tout d'abord, il y a beaucoup plus de bénéficiaires que pour le Secours catholique. Ils sont entre 40 et 50 chaque mercredi. Autre différence, les bénéficiaires doivent payer 1 dixième du prix total de leur colis. Concernant les produits, l'épicerie sociale propose, en plus des produits secs, des produits frais comme des oeufs, de la viande, du fromage, des yaourts et des surgelés.<br><br> C'est la banque alimentaire de Toulouse qui fournit les denrées de l'épicerie sociale. Les bénévoles de l'épicerie s'y rendent le mardi après-midi avec un camion pour les récupérer.</p>" +
+        "<p>Ce service ressemble à celui du mardi, à quelques détails près. Tout d'abord, il y a beaucoup plus de bénéficiaires que pour le Secours catholique. Ils sont entre 40 et 50 chaque mercredi. Autre différence, les bénéficiaires doivent payer 1 dixième du prix total de leur colis. Concernant les produits, l'épicerie sociale propose, en plus des produits secs, des produits frais comme des oeufs, de la viande, du fromage, des yaourts et des surgelés.<br><br> C'est la Banque Alimentaire de Toulouse qui fournit les denrées de l'épicerie sociale. Les bénévoles de l'épicerie s'y rendent le mardi après-midi avec un camion pour les récupérer.</p>" +
     "</li>" +
 "</ul>";
 // JEUDI
@@ -63,7 +63,7 @@ content["jeudi-et-vendredi"] = "<h2>🧹 JEUDI & VENDREDI 🧹</h2>" +
         "<li>Remplissage des glacières des associations avec les produits frais</li>" +
         "<li>Jeter les denrées périmées</li>" +
         "<li>Jeter les cartons dans la benne</li>" +
-        "<li>Nettoyage des sols au balais ou à la raclette</li>" +
+        "<li>Nettoyage des sols au balais et/ou à la raclette</li>" +
     "</ul>" +
 "</p>";
 
