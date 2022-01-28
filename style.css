@@ -373,8 +373,9 @@ footer p {
 
 /* POUR LES PORTABLES */
 
-/* Menu burger */
 @media screen and (max-width: 480px) {
+    
+    /* Menu burger */
     nav {
         min-height: 37px;
         height: auto;
@@ -412,10 +413,8 @@ footer p {
     .iconNonActive {
         display: none !important;
     }
-}
 
-/* Page d'accueil */
-@media screen and (max-width: 480px) {
+    /* Page d'accueil */
     #container {
         display: flex;
         position: fixed;
@@ -444,10 +443,8 @@ footer p {
     #container.open #profile-container {
         padding-left: 10px;
     }
-}
 
-/* Page des réalisations */
-@media screen and (max-width: 480px) {
+    /* Page des réalisations */
     .realisation {
         width: 300px;
         margin: 20px 0;
@@ -475,17 +472,13 @@ footer p {
     .cercle {
         left: 28px;
     }
-}
 
-/* Page de la mission de service */
-@media screen and (max-width: 480px) {
+    /* Page de la mission de service */
     td {
         padding: 20px 10px;
     }
-}
 
-/* Page de contact */
-@media screen and (max-width: 480px) {
+    /* Page de contact */
     article {
         margin: 0!important;
     }
