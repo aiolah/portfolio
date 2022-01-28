@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bienvenue sur le portfolio d'Aïolah Vaïti ! Découvrez mes productions, mon parcours ainsi que ma mission de service !">
+    <meta name="description" content="">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../hint.css-2.7.0/hint.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <title>Accueil - Aïolah Vaïti</title>
+    <script src="js/meta_desc.js"></script>
     <script>
 
         // On redirige vers m.aiolah-vaiti.fr si on est sur un portable
@@ -52,32 +53,36 @@
                         <a href="https://www.linkedin.com/in/aiolah-vaiti/" target="_blank" title="Mon compte LinkedIn !" class="icon">
                             <img src="images/linkedin.png" alt="Icône LinkedIn">
                         </a>
+                        <a href="https://github.com/aiolah" target="_blank" title="Mes repositories Github !" class="icon">
+                            <img src="images/github-gradient.png" alt="Icône Github">
+                        </a>
                     </div>
                 </div>
                 <p id="quote">Clique ici pour découvrir quelque chose à propos de moi 😃 !</p>
             </aside>
-            <div id="profil-container">
-                <img src="images/profil.png" id="profil">
+            <div id="profile-container">
+                <img src="images/profil.png" id="profile" class="iconActive">
+                <img src="images/croix.png" id="cross" class="iconNonActive">
             </div>
         </div>
 
-            {% if accueil %}
-                <article>
-                    <h1>Bienvenue sur mon portfolio !</h1>
-                    <div style="width:100%;height:0;padding-bottom:30%;position:relative;overflow:hidden">
-                        <iframe src="https://giphy.com/embed/bcKmIWkUMCjVm" width="100%" height="70%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                    </div>
-                    <p class="legend">
-                        Je m'appelle <strong>Aïolah Vaïti</strong>, j'ai <strong>21 ans</strong> et je sers actuellement une <a href="?action=mission-de-service" class="lien">mission de service</a>.<br>
-                        J'ai créé ce portofolio afin de mettre en ligne mes diverses <a href="?action=productions" class="lien">productions</a> réalisées lors de mes études.<br>
-                        J'ai également consacré une page à mon <a href="?action=parcours" class="lien">parcours</a> scolaire, universitaire et humanitaire.
-                    </p>
-                    <p class="legend">Bonne visite 😄 !</p>
-                </article>
-            {% else %}
-                {% block section %}
-                {% endblock %}
-            {% endif %}
+        {% if accueil %}
+            <article>
+                <h1>Bienvenue sur mon portfolio !</h1>
+                <div style="width:100%;height:0;padding-bottom:30%;position:relative;overflow:hidden">
+                    <iframe src="https://giphy.com/embed/bcKmIWkUMCjVm" width="100%" height="70%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                </div>
+                <p class="legend">
+                    Je m'appelle <strong>Aïolah Vaïti</strong>, j'ai <strong>21 ans</strong> et je sers actuellement une <a href="?action=mission-de-service" class="lien">mission de service</a>.<br>
+                    J'ai créé ce portofolio afin de mettre en ligne mes diverses <a href="?action=productions" class="lien">productions</a> réalisées lors de mes études.<br>
+                    J'ai également consacré une page à mon <a href="?action=parcours" class="lien">parcours</a> scolaire, universitaire et humanitaire.
+                </p>
+                <p class="legend">Bonne visite 😄 !</p>
+            </article>
+        {% else %}
+            {% block section %}
+            {% endblock %}
+        {% endif %}
     </main>
     <footer>
         <p>Réalisé par Aïolah Vaïti from scratch - <a href="https://icons8.com/icon/16100/visible" target="_blank">Visible icon by Icons8</a>
@@ -87,6 +92,7 @@
         </p>
     </footer>
     <script src="js/accueil.js"></script>
+    <script src="js/aside.js"></script>
     <script src="js/anecdotes.js"></script>
     <script src="js/liens.js"></script>
     {% if mission %}
