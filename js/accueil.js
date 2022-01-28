@@ -12,12 +12,3 @@ function afficheMenu()
     menuBurger.classList.toggle("iconActive");
     menuBurgerCross.classList.toggle("iconActive");
 }
-
-// On toggle la classe open si on clique sur l'icône profil
-let container = document.querySelector("#container");
-document.getElementById("profil").addEventListener("click", afficheAside);
-function afficheAside()
-{
-    container.classList.toggle("open");
-    document.getElementById("profil").classList.toggle("open");
-}

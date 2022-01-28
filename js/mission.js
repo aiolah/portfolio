@@ -7,12 +7,12 @@ for(day of document.getElementsByClassName("day"))
 // Tableau associatif
 let content = [];
 // LUNDI
-content["lundi"] = "<h2>👕 LUNDI - Secours catholique 👕</h2>" +
-"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong>Fonsorbes</strong></p>" +
+content["lundi"] = "<h2>👕 LUNDI 👕</h2>" +
+"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong><a href='https://www.fonsorbes.fr/annuaires-associations/secours-catholique/' target='_blank'>Secours catholique</a> de Fonsorbes</strong></p>" +
 "<p>Le lundi après-midi, c'est <strong>tri de vêtements</strong> !<br><br> Je retrouve mes collègues au vestiaire (une ancienne crèche) où sont stockés tous les habits que nous possédons déjà. Là, nous recevons les nouveaux dons (vêtements et chaussures) et les trions, selon qu'ils soient pour homme, femme, enfant ou bébé. Pour ce faire, nous vérifions leur état (pas de taches ou de trous) et évaluons arbitrairement si le vêtement est encore mettable ou pas. Ensuite, nous le rangeons dans les bacs. En général, ils sont pleins... dans ce cas, nous mettons les habits " + '" à Vertex"' + ".<br><em>Vertex</em> est une association rattachée à Emmaüs qui récupère des textiles et des chaussures pour les revendre ou leur redonner une seconde vie. Les habits ne sont donc pas perdus !<br><br> Nous recevons aussi toute personne qui souhaite acheter des vêtements. Après avoir sélectionné les articles qui l'intéressait, nous les comptons pour fixer le prix. Ceux-ci sont réduits, par exemple un haut vaut 1€.</p>";
 // MARDI
-content["mardi"] = "<h2>🍎 MARDI - Secours catholique 🍎</h2>" +
-"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong>Fonsorbes</strong></p>" +
+content["mardi"] = "<h2>🍎 MARDI 🍎</h2>" +
+"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong><a href='https://www.fonsorbes.fr/annuaires-associations/secours-catholique/' target='_blank'>Secours catholique</a> de Fonsorbes</strong></p>" +
 "<p>Le mardi après-midi, je fais des <strong>colis alimentaires</strong> !<br><br> Au local du secours catholique qui jouxte l'église, nous accueillons les bénéficiaires des colis. Ils sont en moyenne 10 par semaine. Là, selon leurs besoins, nous leur préparons un colis.<br><br> Voici la composition d'un colis type : <br>" +
 "<ul>" +
     "<li>Fruits et légumes frais (selon les dons d'Intermarché et Carrefour)</li>" +
@@ -41,8 +41,8 @@ content["mardi"] = "<h2>🍎 MARDI - Secours catholique 🍎</h2>" +
 "</ul>" +
 "Avant de remplir le sac du bénéficiaire avec les articles, l'une des bénévoles consigne sur une feuille la composition du colis. Cela nous aide à préparer le colis à l'avance quand nous savons qui va passer et à vérifier que personne n'abuse du système en demandant 2 semaines d'affilé du cacao par exemple.<br><br> Les bénéficiaires ne payent pas pour leur colis.<br><br> Le Secours catholique acquiert toutes ces denrées lors de collectes alimentaires organisées aux supermarchés du coin. J'ai pu participer à l'une d'entre elle :</p>";
 // MERCREDI
-content["mercredi"] = "<h2>☕ MERCREDI - Secours catholique/Croix-Rouge ☕</h2>" +
-"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong>Fonsorbes</strong></p>" +
+content["mercredi"] = "<h2>☕ MERCREDI ☕</h2>" +
+"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong><a href='https://www.fonsorbes.fr/annuaires-associations/secours-catholique/' target='_blank'>Secours catholique</a> de Fonsorbes,<br><a href='https://www.croix-rouge.fr/Annuaire/Equipe-Locale-DE-FONSORBES7' target='_blank'>Croix-Rouge</a> de Fonsorbes</strong></p>" +
 "<ul>" +
     "<li>" +
         "<h3>Café solidaire, Secours catholique (1 semaine sur 2)</h3>" + 
@@ -54,9 +54,9 @@ content["mercredi"] = "<h2>☕ MERCREDI - Secours catholique/Croix-Rouge ☕</h2
     "</li>" +
 "</ul>";
 // JEUDI
-content["jeudi-et-vendredi"] = "<h2>🧹 JEUDI & VENDREDI - Banque Alimentaire (BA) 🧹</h2>" +
-"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong>Toulouse</strong></p>" +
-"<p>La Banque Alimentaire dispose de plusieurs entrepôts et chambres froides où elle stocke des produits secs et frais. Elle fournit diverses associations du département en denrées. Celles-ci sont obtenues grâce aux collectes alimentaires et les dons de supermarchés.<br><br> Plusieurs tâches attendent les bénévoles de la BA : " +
+content["jeudi-et-vendredi"] = "<h2>🧹 JEUDI & VENDREDI 🧹</h2>" +
+"<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong><a href='https://ba31.banquealimentaire.org/' target='_blank'>Banque Alimentaire</a> de Toulouse</strong></p>" +
+"<p>La Banque Alimentaire (BA)</a> dispose de plusieurs entrepôts et chambres froides où elle stocke des produits secs et frais. Elle fournit diverses associations du département en denrées. Celles-ci sont obtenues grâce aux collectes alimentaires et les dons de supermarchés.<br><br> Plusieurs tâches attendent les bénévoles de la BA : " +
     "<ul>" +
         "<li>Tri des fruits et légumes</li>" +
         "<li>Tri des produits frais selon la DLC (Date Limite de Consommation)</li>" +
