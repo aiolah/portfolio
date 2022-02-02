@@ -30,6 +30,11 @@ if(isset($_GET['action']))
             echo $twig->render('contact.html.twig', array());
 
         break;
+        case "mentions-legales" :
+
+            echo $twig->render('mentions_legales.html.twig', array());
+
+        break;
     }
 }
 else
