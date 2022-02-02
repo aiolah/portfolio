@@ -26,11 +26,11 @@ if(isset($_POST['prenom']) && isset($_POST['nom']) && isset($_POST['mail']) && i
     $headers .= "Reply-To: aiolah.vaiti@gmail.com";
     
     mail($destinataire, $objet, $message, $headers);
-    header('Location: https://aiolah-vaiti.fr/?action=contact&message=envoye');
+    header('Location: https://aiolah-vaiti.fr/?page=contact&message=envoye');
 }
 else
 {
-    header('Location: https://aiolah-vaiti.fr/?action=contact&message=erreur');
+    header('Location: https://aiolah-vaiti.fr/?page=contact&message=erreur');
 }
 
 ?>
