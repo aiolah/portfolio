@@ -1,5 +1,5 @@
 // Si l'URL correspond à celle du lien, alors on ajout la classe active
-let links = ["https://aiolah-vaiti.fr/", "https://aiolah-vaiti.fr/?action=realisations", "https://aiolah-vaiti.fr/?action=parcours", "https://aiolah-vaiti.fr/?action=mission-de-service", "https://aiolah-vaiti.fr/?action=contact"];
+let links = ["https://aiolah-vaiti.fr/", "https://aiolah-vaiti.fr/?page=realisations", "https://aiolah-vaiti.fr/?page=parcours", "https://aiolah-vaiti.fr/?page=mission-de-service", "https://aiolah-vaiti.fr/?page=contact"];
 let id = ["accueil", "realisations", "parcours", "mission-de-service", "contact"];
 
 let linksNav = document.querySelectorAll("nav a");
