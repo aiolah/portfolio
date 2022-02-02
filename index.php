@@ -5,10 +5,10 @@ error_reporting( E_ALL );
 
 require_once ("moteur_template.php");
 
-if(isset($_GET['action']))
+if(isset($_GET['page']))
 {
-    $action = $_GET['action'];
-    switch($action) {
+    $page = $_GET['page'];
+    switch($page) {
 
         case "realisations" :
 
