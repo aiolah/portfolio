@@ -2,6 +2,11 @@
 let quotes = ["Mon IDE préféré est Visual Studio Code 📄", "Mon parfum de glace préféré est la vanille 🍦", "J'aimerais devenir développeuse web ou mobile 👩🏽‍💻", "Je sais jouer de la flûte traversière et du piano 🎹", "J'aime les films et séries d'animation japonaise 🐉", "J'adore le chocolat 🍫"];
 let rank = 0;
 document.getElementById("quote").addEventListener("click", changeQuote);
+
+/**
+ * Change le contenu du paragraphe de l'aside si on clique dessus
+ * @param {event} e 
+ */
 function changeQuote(e)
 {
     if(rank == quotes.length)

@@ -47,7 +47,7 @@ content["mardi"] = "<h2>🍎 MARDI 🍎</h2>" +
 // MERCREDI
 content["mercredi"] = "<h2>☕ MERCREDI ☕</h2>" +
 "<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong><a href='https://www.fonsorbes.fr/annuaires-associations/secours-catholique/' target='_blank'>Secours Catholique</a> de Fonsorbes,<br><a href='https://www.croix-rouge.fr/Annuaire/Equipe-Locale-DE-FONSORBES7' target='_blank'>Croix-Rouge</a> de Fonsorbes</strong></p>" +
-"<ul  class='p-mission'>" +
+"<ul  class='p-mission ul-mercredi'>" +
     "<li>" +
         "<h3>Café solidaire, Secours Catholique (1 semaine sur 2)</h3>" + 
         "<p>"+
@@ -57,7 +57,9 @@ content["mercredi"] = "<h2>☕ MERCREDI ☕</h2>" +
     "</li>" +
     "<li>" +
         "<h3>Colis alimentaires, Croix-Rouge : épicerie sociale (1 semaine sur 2)</h3>" + 
-        "<p>Ce service ressemble à celui du mardi, à quelques détails près. Tout d'abord, il y a beaucoup plus de bénéficiaires que pour le Secours Catholique. Ils sont entre 40 et 50 chaque mercredi. Autre différence, les bénéficiaires doivent payer 1 dixième du prix total de leur colis. Concernant les produits, l'épicerie sociale propose, en plus des produits secs, des produits frais comme des oeufs, de la viande, du fromage, des yaourts et des surgelés.<br><br> C'est la Banque Alimentaire de Toulouse qui fournit les denrées de l'épicerie sociale. Les bénévoles de l'épicerie s'y rendent le mardi après-midi avec un camion pour les récupérer.</p>" +
+        "<p>Ce service ressemble à celui du mardi, à quelques détails près. Tout d'abord, il y a beaucoup plus de bénéficiaires que pour le Secours Catholique. Ils sont entre 40 et 50 chaque mercredi. Autre différence, les bénéficiaires doivent payer 1 dixième du prix total de leur colis. Concernant les produits, l'épicerie sociale propose, en plus des produits secs, des produits frais comme des oeufs, de la viande, du fromage, des yaourts et des surgelés.</p>" +
+        "<img src='images/20220209_093112.jpg' alt='Épicerie sociale' class='img-mission'>" +
+        "<p>C'est la Banque Alimentaire de Toulouse qui fournit les denrées de l'épicerie sociale. Les bénévoles de l'épicerie s'y rendent le mardi après-midi avec un camion pour les récupérer.</p>" +
     "</li>" +
 "</ul>";
 // JEUDI
@@ -90,6 +92,10 @@ content["jeudi-et-vendredi"] = "<h2>🧹 JEUDI & VENDREDI 🧹</h2>" +
     "</ul>" +
 "</p>";
 
+/**
+ * Supprime la classe selection pour tous les jours de la semaine, l'ajoute au jour sélectionné, affiche le texte correspondant au jour sélectionné
+ * @param {event} e 
+ */
 function deplieTexte(e)
 {
     for(day of document.getElementsByClassName("day"))
