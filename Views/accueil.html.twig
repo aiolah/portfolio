@@ -13,15 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=The+Nautigal&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    <title>Accueil - Aïolah Vaïti</title>
-    <script src="js/meta_desc.js"></script>
+    <title></title>
+    <script src="js/head.js"></script>
     <script>
 
         // On redirige vers m.aiolah-vaiti.fr si on est sur un portable
-        {# if(window.innerWidth <= 480)
+        if(window.innerWidth <= 480)
         {
             window.location.href = "https://m.aiolah-vaiti.fr";
-        } #}
+        }
 
     </script>
 </head>
@@ -41,29 +41,27 @@
 </nav>
 <body>
     <main>
-        <div id="container">
-            <aside>
-                <img src="images/photos.gif" alt="Aïolah Vaïti" id="me">
+        <aside>
+            <img src="images/photos.gif" alt="Aïolah Vaïti" id="me">
+            <div>
+                <p>It's-a-me, <strong>Aïolah Vaïti</strong></p>
                 <div>
-                    <p>It's-a-me, <strong>Aïolah Vaïti</strong></p>
-                    <div>
-                        <a href="documents/CV.pdf" target="_blank" title="Mon CV !" class="icon">
-                            <img src="images/CV.png" alt="Icône CV">
-                        </a>
-                        <a href="https://www.linkedin.com/in/aiolah-vaiti/" target="_blank" title="Mon compte LinkedIn !" class="icon">
-                            <img src="images/linkedin.png" alt="Icône LinkedIn">
-                        </a>
-                        <a href="https://github.com/aiolah" target="_blank" title="Mes repositories Github !" class="icon">
-                            <img src="images/github-gradient.png" alt="Icône Github">
-                        </a>
-                    </div>
+                    <a href="documents/CV.pdf" target="_blank" title="Mon CV !" class="icon">
+                        <img src="images/CV.png" alt="Icône CV">
+                    </a>
+                    <a href="https://www.linkedin.com/in/aiolah-vaiti/" target="_blank" title="Mon compte LinkedIn !" class="icon">
+                        <img src="images/linkedin.png" alt="Icône LinkedIn">
+                    </a>
+                    <a href="https://github.com/aiolah" target="_blank" title="Mes repositories Github !" class="icon">
+                        <img src="images/github-gradient.png" alt="Icône Github">
+                    </a>
                 </div>
-                <p id="quote">Clique ici pour découvrir quelque chose à propos de moi 😃 !</p>
-            </aside>
-            <div id="profile-container">
-                <img src="images/profil.png" id="profile" class="iconActive">
-                <img src="images/croix.png" id="cross" class="iconNonActive">
             </div>
+            <p id="quote">Clique ici pour découvrir quelque chose à propos de moi 😃 !</p>
+        </aside>
+        <div id="profile-container">
+            <img src="images/profil.png" id="profile" class="iconActive">
+            <img src="images/croix.png" id="cross" class="iconNonActive">
         </div>
 
         {% if accueil %}
