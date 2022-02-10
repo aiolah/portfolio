@@ -187,66 +187,129 @@ h1 {
 /* PAGE PARCOURS.HTML */
 
 #container-parcours {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(1fr);
+}
+
+.section {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-#small-container-parcours {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+#section1 {
+    grid-row: 1;
+    grid-column: 1;
+    justify-content : center;
 }
 
-#rectangle {
+#section3 {
+    grid-row: 2;
+    grid-column: 1;
+    justify-content : center;
+}
+
+#section5 {
+    grid-row: 3;
+    grid-column: 1;
+    justify-content : center;
+}
+
+#section7 {
+    grid-row: 4;
+    grid-column: 1;
+    justify-content : center;
+}
+
+#section9 {
+    grid-row: 5;
+    grid-column: 1;
+    justify-content : center;
+}
+
+#section11 {
+    grid-row: 6;
+    grid-column: 1;
+    justify-content : center;
+}
+
+
+#section2 {
+    grid-row: 1;
+    grid-column: 2;
+    justify-content : start;
+}
+
+#section4 {
+    grid-row: 2;
+    grid-column: 2;
+    justify-content : start;
+}
+
+#section6 {
+    grid-row: 3;
+    grid-column: 2;
+    justify-content : start;
+}
+
+#section8 {
+    grid-row: 4;
+    grid-column: 2;
+    justify-content : start;
+}
+
+#section10 {
+    grid-row: 5;
+    grid-column: 2;
+    justify-content : start;
+}
+
+#section12 {
+    grid-row: 6;
+    grid-column: 2; 
+    justify-content : start;
+}
+
+#bar1 {
+    margin-top: 5vh;
+}
+
+#last-bar {
+    margin-bottom: 5vh;
+}
+
+.bar {
+    width: 1.5vw;
+    height: 100%;
     background-color: #4d0a58;
-    width: 2vw;
-    height: 50vh;
 }
 
-.cercle {
-    background-color: #4d0a58;
+.circle {
+    position: absolute;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    margin-left: -6vw;
+    background-color: #4d0a58;
 }
 
-.carre-oriente {
-    background-color: #4d0a58;
+.square-oriented {
     width: 30px;
     height: 30px;
-    display: inline-block;
-    position: relative;
-    margin-left: -5vw;    
+    position: absolute;
+    background-color: #4d0a58;
     -ms-transform: rotate(45deg); /* Internet Explorer */
     -moz-transform: rotate(45deg); /* Firefox */
     -webkit-transform: rotate(45deg); /* Safari et Chrome */
     -o-transform: rotate(45deg); /* Opera */
+    margin-top: -14vh;
 }
 
-#cercle1 {
-    margin-top: 10px;
+#square2 {
+    margin-top: -11vh;
 }
 
-#carre1 {
-    margin-top: 5px;
-}
-
-.centrer {
-    margin-top: 5px;
-}
-
-#mission {
-    margin-top: -6px;
-}
-
-.mention, .second-mention {
-    margin-left: 35px;
-}
-
-.mention {
-    /* margin-top: 9px; */
-    margin-top: -34px;
+#square3 {
+    margin-top: -20vh;
 }
 
 /* PAGE MISSION_DE_SERVICE.HTML */
@@ -278,6 +341,10 @@ td:hover {
 
 #clic, h2 {
     text-align: center;
+}
+
+ul {
+    text-align: left;
 }
 
 h2 + p, h2 + ul {
@@ -317,7 +384,15 @@ video {
 }
 
 .p-mission, .img-mission {
-    width: 75vw;
+    width: 72vw;
+}
+
+ul.p-mission, ul .img-mission {
+    width: 69vw;
+}
+
+.ul-mercredi {
+    text-align: justify;
 }
 
 /* PAGE CONTACT.HTML */
@@ -505,6 +580,24 @@ footer p:last-child {
         width: 7vw;
         height: 985px;
         margin-top: 2vh;
+    }
+
+    /* Page du parcours */
+    .circle {
+        margin-top: -8vh;
+    }
+    
+    #square1, #square2 {
+        margin-top: -26vh;
+    }
+
+    #square3 {
+        margin-top: -35vh;
+    }
+
+    #last-bar {
+        align-self: flex-start;
+        height: 15%;
     }
 
     /* Page de la mission de service */
