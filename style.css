@@ -395,6 +395,21 @@ ul.p-mission, ul .img-mission {
     text-align: justify;
 }
 
+#container-image {
+    display: flex;
+    flex-direction: row;
+}
+
+#container-image ul {
+    width: 40vw;
+}
+
+.vertical-image {
+    width: auto;
+    height: 33vh;
+    margin: auto;
+}
+
 /* PAGE CONTACT.HTML */
 
 .star {
