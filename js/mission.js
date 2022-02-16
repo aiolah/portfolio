@@ -16,16 +16,19 @@ content["lundi"] = "<h2>👕 LUNDI 👕</h2>" +
 content["mardi"] = "<h2>🍎 MARDI 🍎</h2>" +
 "<p class='localisation'><img src='images/marqueur.png' alt='Marqueur' id='marqueur'><strong><a href='https://www.fonsorbes.fr/annuaires-associations/secours-catholique/' target='_blank'>Secours Catholique</a> de Fonsorbes</strong></p>" +
 "<p class='p-mission'>Le mardi après-midi, je fais des <strong>colis alimentaires</strong> !<br><br> Au local du Secours Catholique qui jouxte l'église, nous accueillons les bénéficiaires des colis. Ils sont en moyenne 10 par semaine. Là, selon leurs besoins, nous leur préparons un colis.<br><br> Voici la composition d'un colis type : <br>" +
-"<ul>" +
-    "<li>Fruits et légumes frais (selon les dons d'Intermarché et Carrefour)</li>" +
-    "<li>1 Conserve de légumes (<span id='exemple'>ex:</span> petit pois, petit pois et carottes, haricots verts/blancs/rouges, lentilles, flageolets, poêlée paysanne)</li>" +
-    "<li>1 Conserve de viande (<span id='exemple'>ex:</span> raviolis, couscous, cassoulet, saucisses et lentilles, petit salé, gratin dauphinois)</li>" +
-    "<li>1 Conserve de poisson (<span id='exemple'>ex:</span> thon, sardines, maquereaux)</li>" +
-    "<li>1 Paquet de pâtes</li>" +
-    "<li>1 Boîte de riz</li>" +
-    "<li>1 Sauce tomate</li>" +
-    "<li>1 Soupe</li>" +
-"</ul>" +
+"<div id='container-image'>" +
+    "<ul>" +
+        "<li>Fruits et légumes frais (selon les dons d'Intermarché et Carrefour)</li>" +
+        "<li>1 Conserve de légumes (<span id='exemple'>ex:</span> petit pois, petit pois et carottes, haricots verts/blancs/rouges, lentilles, flageolets, poêlée paysanne)</li>" +
+        "<li>1 Conserve de viande (<span id='exemple'>ex:</span> raviolis, couscous, cassoulet, saucisses et lentilles, petit salé, gratin dauphinois)</li>" +
+        "<li>1 Conserve de poisson (<span id='exemple'>ex:</span> thon, sardines, maquereaux)</li>" +
+        "<li>1 Paquet de pâtes</li>" +
+        "<li>1 Boîte de riz</li>" +
+        "<li>1 Sauce tomate</li>" +
+        "<li>1 Soupe</li>" +
+    "</ul>" +
+    "<img src='images/20220215_151809.jpg' alt='Colis alimentaire' class='vertical-image'>" +
+"</div>" +
 "<p>Selon les goûts, les préférences et les besoins :</p>" +
 "<ul>" +
     "<li>1 Paquet de café</li>" +
