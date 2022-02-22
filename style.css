@@ -58,7 +58,12 @@ ul a:visited {
 }
 
 header {
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+header img {
+    width: 98vw;
 }
 
 /* MAIN */
