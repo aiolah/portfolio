@@ -421,6 +421,10 @@ ul.p-mission, ul .img-mission {
     color: red;
 }
 
+form {
+    width: 70vw;
+}
+
 label {
     display: inline-block;
     margin: 20px 0 10px 0;
