@@ -1,3 +1,9 @@
+// On redirige vers m.aiolah-vaiti.fr si on est sur un portable
+if(window.innerWidth <= 480)
+{
+    window.location.href = "https://m.aiolah-vaiti.fr";
+}
+
 // On identifie l'url, en fonction de ça on change la balise meta description et la balise title
 if(window.location.href == "https://aiolah-vaiti.fr/" || window.location.href == "https://m.aiolah-vaiti.fr/")
 {
