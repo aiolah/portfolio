@@ -140,6 +140,15 @@ h1 {
     margin: 30px 0;
 }
 
+/* PAGE ACCUEIL.HTML */
+
+#gif {
+    display: flex;
+    justify-content: center;
+    height: 27vh;
+    margin: 5% 0;
+}
+
 /* PAGE REALISATIONS.HTML */
 
 #realisations {
